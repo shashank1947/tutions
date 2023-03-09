@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Easy Tuitions</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    .jumbotron {
+      background-color: #f4511e; /* Orange */
+      color: #faf9f9;
+      padding: 100px 25px;
+    }
+    .container-fluid {
+  padding: 60px 50px;
+}
+h1{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size:larger;
+  text-align: center;
+
+}
+.modal-content{
+  color: black;
+}
+    </style>
+</head>
+<body>
+  <div class="jumbotron">
+<div class="container">
+  
+  <h1><i>EASY TUITIONS</i></h1>
+  
+  <form class="form-horizontal" action="/action_page.php" autocomplete="on"><br><br>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="name">Name:</label>
+      <div class="col-sm-4">
+        <input type="text" class="form-control" id="name" placeholder="Enter name" name="name">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="class">class:</label>
+      <div class="col-sm-4">          
+        <input type="number" class="form-control" id="class" placeholder="Enter class" name="class" min=1 max=12>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="contactno.">Contact no:</label>
+      <div class="col-sm-4">          
+        <input type="number" class="form-control" id="contactno" placeholder="Enter Contact no." name="contactno." >
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="mode">Preferred mode:</label>
+      <div class="col-sm-4">          
+        <select class="form-control" id="mode" placeholder="online/offline">
+          <option>Select online/offline</option>
+          <option>ONLINE</option>
+          <option>OFFLINE</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="time">Preferred Timings:</label>
+      <div class="col-sm-4">          
+        <select class="form-control" id="time">
+          <option>6-7</option>
+          <option>7-8</option>
+          <option>8-9</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="name">Location</label>
+      <div class="col-sm-4">
+        <input type="text" class="form-control" id="name" placeholder="H.no,village,mandal" name="name">
+      </div>
+    </div>
+    
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <div class="checkbox">
+          <label><input type="checkbox" name="remember"> I accept your terms and conditions</label>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Book Demo</button>
+      </div>
+    </div>
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4  class="modal-title">THANK YOU FOR VISITING</h4>
+          </div>
+          <div class="modal-body">
+            <p>We have received your request.<br>Our assistant will call you within short period of time.<br> Meanwhile plz go through our website.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-4">
+  <h2>About Our Company </h2>
+  <h4>It is startup</h4>
+  
+  <button class="btn btn-default btn-lg">Get in Touch</button>
+  </div>
+  </div>
+</div>
+<div class="container-fluid bg-grey">
+  <div class="row">
+    <div class="col-sm-4">
+  <h2>Our Values</h2>
+  <h4><strong>MISSION:</strong> Our mission is to teach students  in a friendly manner wherever they are,  </h4>
+  <p><strong>VISION:</strong> Our vision is to 
+  </div>
+  </div>
+</div>
+<div class="container-fluid text-center">
+  <h2>SERVICES</h2>
+  <h4>What we offer</h4>
+  <br>
+  <div class="row">
+    <div class="col-sm-6">
+      <span class="glyphicon glyphicon-user"></span>
+      <h4>OFFLINE TUITIONS</h4>
+      <p>In this case tutor come to student's home and teaches and clarifies all the doubts of respective student </p>
+    </div>
+    <div class="col-sm-6">
+      <span class="glyphicon glyphicon-facetime-video"></span>
+      <h4>ONLINE TUITIONS</h4>
+      <p>In this case tutor teaches him virtually by using any meeting sources.</p>
+    </div>
+    </div>
+    <br><br>
+ 
+</div>
+
+
+</body>
+</html>
